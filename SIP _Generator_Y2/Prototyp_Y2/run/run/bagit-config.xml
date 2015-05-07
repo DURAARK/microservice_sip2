@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!-- Configuration file for BagIT-SIP generator--><!--Created by Hamid Rofoogaran--><!--LDB-Centrum | LTU--><bagit_sip>
+	<uid>UUID:Manuell-BagIT</uid>
+	<a/>
+	<katSystem>/home/user1/duraark/bagit/system</katSystem>
+	<katMetadata>/home/user1/duraark/bagit/metadata</katMetadata>  
+	<katContent>/home/user1/duraark/bagit</katContent>
+	<utFilContent>/home/user1/duraark/temp/cHashsum.txt</utFilContent>
+	<utFilMets>/home/user1/duraark/bagit/data/Mets.xml</utFilMets>
+	<katTarPaket>/home/user1/duraark/sip/</katTarPaket>
+	<katTarStart>/home/user1/duraark/bagit/</katTarStart>
+	<patheARDsip>/home/user1/duraark/run/BagIT.jar</patheARDsip>
+	<hashSumType>md5</hashSumType>
+	<md5Lista/>
+	<config_db>
+		<!--MySQL -->
+		<jdbcreg01>com.mysql.jdbc.Driver</jdbcreg01>
+		<url01>jdbc:mysql://localhost:3306/sip_db</url01>
+		<user01>root</user01>
+		<pw01>rishe</pw01>
+	</config_db>
+	<!--Config för droidning -->
+	<config_filanalys>
+		<katalogOverSubkat>/home/user1/duraark/bagit</katalogOverSubkat>
+		<pathDroidJar>/home/user1/duraark/run/droid/droid.jar</pathDroidJar>
+		<argSignaturfil>/home/user1/duraark/run/droid/DROID_SignatureFile_V81.xml</argSignaturfil>
+		<argUtskriftfil>/home/user1/duraark/temp/outputDroid</argUtskriftfil>
+		<droidInputFil>/home/user1/duraark/temp/DroidInputFil</droidInputFil>
+	</config_filanalys>
+</bagit_sip>

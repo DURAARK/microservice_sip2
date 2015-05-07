@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!-- configuration file for Rosetta SIP generator--><!--Created by Hamid Rofoogaran--><!--LDB-Centrum | LTU--><rosetta_sip>
+	<uid>UUID:error</uid>
+	<a/>
+	<katSystem>system</katSystem>
+	<katMetadata>metadata</katMetadata>
+	<katContent>content/streams</katContent>
+	<utFilContent>cHashsum.txt</utFilContent>
+	<utFilMets>content/ie.xml</utFilMets>
+        <dcXml>dc.xml</dcXml>
+	<katTarPaket>sip/</katTarPaket>
+	<katTarStart>.</katTarStart>
+	<patheARDsip>PrototypeY2.jar</patheARDsip>
+	<hashSumType>md5</hashSumType>
+	<md5Lista/>
+	<config_db>
+		<!--SQLITE -->
+		<jdbcreg01>org.sqlite.JDBC</jdbcreg01>
+		<url01>jdbc:sqlite:sip_db</url01>
+		<user01>root</user01>
+		<pw01>rishe</pw01>
+	</config_db>
+	<!--Config för droidning -->
+	<config_filanalys>
+		<katalogOverSubkat>.</katalogOverSubkat>
+		<pathDroidJar>droid/droid.jar</pathDroidJar>
+		<argSignaturfil>droid/DROID_SignatureFile_V81.xml</argSignaturfil>
+		<argUtskriftfil>droid/outputDroid</argUtskriftfil>
+		<droidInputFil>DroidInputFil</droidInputFil>
+	</config_filanalys>
+</rosetta_sip>
