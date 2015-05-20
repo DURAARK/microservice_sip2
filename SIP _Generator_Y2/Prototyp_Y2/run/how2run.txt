@@ -1,0 +1,13 @@
+You need java and sqlite3 installed
+
+go to the folder brilliantly names ../run/run
+
+First set up the sqlite database using the initiate_sqlitedb.sql
+
+Then run this from the terminal " java -jar PrototypeY2.jar Rosetta-SIP"
+
+This will do the SIP generation of the content placed in the "content" folder.
+
+Currently you need java version "51" (internal name) for it to work. #willfix.
+
+
