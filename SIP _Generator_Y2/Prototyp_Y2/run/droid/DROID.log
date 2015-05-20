@@ -1,0 +1,44 @@
+18-05-2015@11:06:15  [main] INFO  ? uk.gov.nationalarchives.droid.MessageDisplay  - WARNING: The expected configuration file DROID_config.xml was not found.
+A new one will be created using the configuration defaults.
+18-05-2015@11:06:15  [main] INFO  ? uk.gov.nationalarchives.droid.MessageDisplay  - WARNING: The file DROID_SignatureFile.xml does not exist
+18-05-2015@11:06:15  [main] INFO  ? uk.gov.nationalarchives.droid.MessageDisplay  - WARNING: The file DROID_SignatureFile.xml does not exist
+18-05-2015@11:06:15  [main] ERROR ? uk.gov.nationalarchives.droid.AnalysisController  - Could not set Jasper Reports temporary directory to :tempDir 
+Either it is not a valid directory or the directory is not writable
+18-05-2015@11:07:11  [main] INFO  ? uk.gov.nationalarchives.droid.MessageDisplay  - WARNING: The file DROID_SignatureFile.xml does not exist
+18-05-2015@11:07:11  [main] INFO  ? uk.gov.nationalarchives.droid.MessageDisplay  - WARNING: The file DROID_SignatureFile.xml does not exist
+18-05-2015@11:07:11  [main] ERROR ? uk.gov.nationalarchives.droid.AnalysisController  - Could not set Jasper Reports temporary directory to :tempDir 
+Either it is not a valid directory or the directory is not writable
+18-05-2015@11:07:42  [main] INFO  ? uk.gov.nationalarchives.droid.MessageDisplay  - Signature file V81 has been checked
+18-05-2015@11:07:43  [main] INFO  ? uk.gov.nationalarchives.droid.MessageDisplay  - Signature file V81 has been checked
+18-05-2015@11:07:43  [main] ERROR ? uk.gov.nationalarchives.droid.AnalysisController  - Could not set Jasper Reports temporary directory to :tempDir 
+Either it is not a valid directory or the directory is not writable
+18-05-2015@13:19:34  [main] INFO  ? uk.gov.nationalarchives.droid.MessageDisplay  - Signature file V81 has been checked
+18-05-2015@13:19:35  [main] INFO  ? uk.gov.nationalarchives.droid.MessageDisplay  - Signature file V81 has been checked
+18-05-2015@13:19:35  [main] ERROR ? uk.gov.nationalarchives.droid.AnalysisController  - Could not set Jasper Reports temporary directory to :tempDir 
+Either it is not a valid directory or the directory is not writable
+18-05-2015@13:19:35  [main] INFO  ? uk.gov.nationalarchives.droid.MessageDisplay  - WARNING: The file DROID_SignatureFile.xml doesn't specify any files.
+18-05-2015@13:19:35  [main] ERROR ? uk.gov.nationalarchives.droid.AnalysisController  - An error occured in loading this list, it is likely that the file ("DROID_SignatureFile.xml")
+ is not a valid DROID list .xml file
+18-05-2015@13:19:35  [main] FATAL ? uk.gov.nationalarchives.droid.MessageDisplay  - Fatal Error: 
+No file was provided for identification.
+DROID_SignatureFile.xml
+18-05-2015@13:20:23  [main] INFO  ? uk.gov.nationalarchives.droid.MessageDisplay  - Signature file V81 has been checked
+18-05-2015@13:20:24  [main] INFO  ? uk.gov.nationalarchives.droid.MessageDisplay  - Signature file V81 has been checked
+18-05-2015@13:20:24  [main] ERROR ? uk.gov.nationalarchives.droid.AnalysisController  - Could not set Jasper Reports temporary directory to :tempDir 
+Either it is not a valid directory or the directory is not writable
+18-05-2015@13:20:24  [main] INFO  ? uk.gov.nationalarchives.droid.MessageDisplay  - WARNING: The file DROID_SignatureFile.xml doesn't specify any files.
+18-05-2015@13:20:24  [main] ERROR ? uk.gov.nationalarchives.droid.AnalysisController  - An error occured in loading this list, it is likely that the file ("DROID_SignatureFile.xml")
+ is not a valid DROID list .xml file
+18-05-2015@13:20:24  [main] FATAL ? uk.gov.nationalarchives.droid.MessageDisplay  - Fatal Error: 
+No file was provided for identification.
+DROID_SignatureFile.xml
+18-05-2015@13:22:54  [main] INFO  ? uk.gov.nationalarchives.droid.MessageDisplay  - Signature file V81 has been checked
+18-05-2015@13:22:55  [main] INFO  ? uk.gov.nationalarchives.droid.MessageDisplay  - Signature file V81 has been checked
+18-05-2015@13:22:55  [main] ERROR ? uk.gov.nationalarchives.droid.AnalysisController  - Could not set Jasper Reports temporary directory to :tempDir 
+Either it is not a valid directory or the directory is not writable
+18-05-2015@13:22:55  [main] INFO  ? uk.gov.nationalarchives.droid.MessageDisplay  - WARNING: The file DROID_SignatureFile.xml doesn't specify any files.
+18-05-2015@13:22:55  [main] ERROR ? uk.gov.nationalarchives.droid.AnalysisController  - An error occured in loading this list, it is likely that the file ("DROID_SignatureFile.xml")
+ is not a valid DROID list .xml file
+18-05-2015@13:22:55  [main] FATAL ? uk.gov.nationalarchives.droid.MessageDisplay  - Fatal Error: 
+No file was provided for identification.
+DROID_SignatureFile.xml

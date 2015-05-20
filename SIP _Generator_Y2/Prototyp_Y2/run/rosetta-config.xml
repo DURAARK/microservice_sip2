@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><!-- configuration file for Rosetta SIP generator--><!--Created by Hamid Rofoogaran--><!--LDB-Centrum | LTU--><rosetta_sip>
 	<uid>UUID:Rosetta-SIP</uid>
 	<a/>
-	<katSystem>/home/user1/duraark/rosetta/system</katSystem>
-	<katMetadata>/home/user1/duraark/rosetta/metadata</katMetadata>
-	<katContent>/home/user1/duraark/rosetta/content/streams</katContent>
-	<utFilContent>/home/user1/duraark/temp/cHashsum.txt</utFilContent>
-	<utFilMets>/home/user1/duraark/rosetta/content/ie.xml</utFilMets>
-        <dcXml>/home/user1/duraark/rosetta/dc.xml</dcXml>
-	<katTarPaket>/home/user1/duraark/sip/</katTarPaket>
-	<katTarStart>/home/user1/duraark/rosetta/</katTarStart>
-	<patheARDsip>/home/user1/duraark/run/Rosetta-sip.jar</patheARDsip>
+	<katSystem>system</katSystem>
+	<katMetadata>metadata</katMetadata>
+	<katContent>content/streams</katContent>
+	<utFilContent>cHashsum.txt</utFilContent>
+	<utFilMets>content/ie.xml</utFilMets>
+        <dcXml>dc.xml</dcXml>
+	<katTarPaket>sip/</katTarPaket>
+	<katTarStart>.</katTarStart>
+	<patheARDsip>PrototypeY2.jar</patheARDsip> <!-- Rosetta.jar -->
 	<hashSumType>md5</hashSumType>
 	<md5Lista/>
 	<config_db>
-		<!--MySQL -->
-		<jdbcreg01>com.mysql.jdbc.Driver</jdbcreg01>
-		<url01>jdbc:mysql://localhost:3306/sip_db</url01>
+		<!--SQLITE -->
+		<jdbcreg01>org.sqlite.JDBC</jdbcreg01>
+		<url01>jdbc:sqlite:sipdb.db</url01>
 		<user01>root</user01>
 		<pw01>rishe</pw01>
 	</config_db>
 	<!--Config för droidning -->
 	<config_filanalys>
-		<katalogOverSubkat>/home/user1/duraark/rosetta/</katalogOverSubkat>
-		<pathDroidJar>/home/user1/duraark/run/droid/droid.jar</pathDroidJar>
-		<argSignaturfil>/home/user1/duraark/run/droid/DROID_SignatureFile_V81.xml</argSignaturfil>
-		<argUtskriftfil>/home/user1/duraark/temp/outputDroid</argUtskriftfil>
-		<droidInputFil>/home/user1/duraark/temp/DroidInputFil</droidInputFil>
+		<katalogOverSubkat>.</katalogOverSubkat>
+		<pathDroidJar>droid/droid.jar</pathDroidJar>
+		<argSignaturfil>droid/DROID_SignatureFile_V81.xml</argSignaturfil>
+		<argUtskriftfil>droid/outputDroid</argUtskriftfil>
+		<droidInputFil>droid/DroidInputFil</droidInputFil>
 	</config_filanalys>
 </rosetta_sip>
