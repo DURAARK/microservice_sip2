@@ -3,7 +3,9 @@ The new version of the SIP generator
 
 (The following text will be made more precise).
 
-You need java and sqlite3 installed
+You need java 8 and sqlite3 installed.
+
+Here is how to get java 8 on Ubuntu 14.04 LTS: http://ubuntuhandbook.org/index.php/2015/01/install-openjdk-8-ubuntu-14-04-12-04-lts/
 
 Go to the folder brilliantly located at ../run/run .
 
