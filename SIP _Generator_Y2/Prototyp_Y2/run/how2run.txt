@@ -1,8 +1,8 @@
 You need java and sqlite3 installed
 
-go to the folder brilliantly names ../run/run
+Go to the folder brilliantly located at ../run/run .
 
-First set up the sqlite database using the initiate_sqlitedb.sql
+First set up the sqlite database using the initiate_sqlitedb.sql file.
 
 Then run this from the terminal " java -jar PrototypeY2.jar Rosetta-SIP"
 
